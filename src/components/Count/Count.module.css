@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  background-color: var(--bgContainer);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.counterValue {
+  font-size: 60px;
+}
+
+.counterValue[data-attr="positive"] {
+  color: var(--blue);
+}
+.counterValue[data-attr="negative"] {
+  color: var(--red);
+}
+
+.btnContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  color: white;
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px #777;
+  transition: all 100ms ease-in-out;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}
+
+.decreaseBtn {
+  background-color: var(--red);
+}
+
+.increaseBtn {
+  background-color: var(--blue);
+}

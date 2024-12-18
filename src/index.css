@@ -1,0 +1,22 @@
+:root {
+  --mainFont: Verdana, Geneva, Tahoma, sans-serif;
+  --blue: #007cd3;
+  --red: #e70010;
+  --border: #e6e9e8;
+  --bgContainer: #fcfcfd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: var(--mainFont);
+}
